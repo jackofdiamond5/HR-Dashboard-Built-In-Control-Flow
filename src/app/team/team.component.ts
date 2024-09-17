@@ -1,4 +1,4 @@
-import { NgFor } from '@angular/common';
+
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { IGX_CARD_DIRECTIVES, IgxIconComponent } from 'igniteui-angular';
 import { Subject, takeUntil } from 'rxjs';
@@ -8,7 +8,7 @@ import { DashboardDataService } from '../services/dashboard-data.service';
 @Component({
   selector: 'app-team',
   standalone: true,
-  imports: [IGX_CARD_DIRECTIVES, IgxIconComponent, NgFor],
+  imports: [IGX_CARD_DIRECTIVES, IgxIconComponent],
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.scss']
 })

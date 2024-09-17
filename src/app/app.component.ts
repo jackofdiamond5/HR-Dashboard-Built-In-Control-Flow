@@ -1,4 +1,4 @@
-import { NgFor, NgIf } from '@angular/common';
+
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterOutlet } from '@angular/router';
@@ -10,7 +10,7 @@ import { DashboardDataService } from './services/dashboard-data.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [IGX_DIALOG_DIRECTIVES, IGX_LIST_DIRECTIVES, IGX_CARD_DIRECTIVES, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxIconButtonDirective, IgxAvatarComponent, IgxIconComponent, IgxButtonDirective, IgxRippleDirective, IgxToggleDirective, IgxCheckboxComponent, IgxSwitchComponent, RouterLink, NgIf, RouterOutlet, NgFor, FormsModule],
+  imports: [IGX_DIALOG_DIRECTIVES, IGX_LIST_DIRECTIVES, IGX_CARD_DIRECTIVES, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxIconButtonDirective, IgxAvatarComponent, IgxIconComponent, IgxButtonDirective, IgxRippleDirective, IgxToggleDirective, IgxCheckboxComponent, IgxSwitchComponent, RouterLink, RouterOutlet, FormsModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
